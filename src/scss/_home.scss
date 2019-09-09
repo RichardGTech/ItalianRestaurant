@@ -1,0 +1,291 @@
+.home {
+  // Address/phone Info
+    .address-phone-info {
+        font-family: $font1;
+        padding: 15px;
+        text-align: center;
+        background-color: $color1;
+        width: 100%;
+    }
+    p {
+        color: #fff;
+        display: inline-block;
+        margin: 0 120px;
+        font-size: .8rem;
+        font-weight: 300;
+    }
+
+    // Title
+    .title {
+        padding: 15px;
+        text-align: center;
+        font-size: 1.8rem;
+        font-family: $font1;
+    }
+    .line {
+        display: inline-block;
+        margin-right: 350px;
+    }
+    .text1 {
+        color: $color3;
+    }
+    .text2 {
+        color: $color7;
+    }
+    .text3 {
+        color: $color7;
+    }
+    .text1, .text2, .text3 {
+      font-weight: 400;
+    }
+
+    // Header
+    .header {
+        background-image: url("https://i.ibb.co/H4Srw0z/finestitalia.jpg");
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;
+        width: 100%;
+        height: 400px;
+      }
+      .text__container {
+        // background-color: black;
+        // width: 50%;
+        // height: 50%;
+        font-family: $font1;
+        color: $color3;
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        position: relative;
+        top: 70px;
+        margin-left: 385px;
+      }
+      
+      .welcome {
+        color: $color2;
+        font-size: 5em;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        margin-bottom: 5px;
+        margin-left: -22px;
+      }
+      .mario {
+        color: $color6;
+        line-height: 0.5;
+        font-size: 2em;
+        margin-bottom: 40px;
+      }
+      .comfy {
+        color: $color6;
+        line-height: 0.5;
+        font-size: 2em;
+        margin-left: -10px;
+      }
+      .welcome, .mario, .comfy {
+        font-weight: 600;
+      }
+      .reservation-container {
+        color: #fff;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        position: relative;
+        top: -186px;
+        margin-left: 65%;
+        background-color: $color7;
+        width: 250px;
+        height: 399px;
+      }
+      .text-container2 {
+        text-align: center;
+        margin-top: 30px;
+        font-family: $font2;
+      }
+      h1 {
+        font-weight: 600;
+        font-size: 2rem;
+        margin-bottom: 15px;
+        margin-left: 5px;
+      }
+      h4 {
+        font-size: .85rem;
+        font-weight: 400;
+        margin-bottom: 5px;
+      }
+      form {
+        text-align: center;
+      }
+      input {
+        border-radius: 4px;
+        margin: 15px;
+        padding: 9px;
+      }
+      .reserve-btn{
+        background: $color2;
+        padding: 15px 25px;
+        border-radius: 15px;
+        text-transform: uppercase;
+        position: relative;
+        top: 20px;
+        a {
+          text-decoration: none;
+          font-family: $font2;
+          font-size: 1rem;
+          font-weight: 500;
+          color: $color7;
+          transition: all .4s ease-in-out;
+        }
+        a:hover {
+          color: #fff;
+        }
+      }
+    .food-selections {
+      margin: 40px;
+    }
+    .flex-container {
+      display: flex;
+      flex-flow: flex-wrap;
+      justify-content: space-evenly;
+    }
+    .flex-item {
+      border: 5px solid $color7;
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+    }
+    img {
+      width: 191px;
+      height: 191px;
+      border-radius: 50%;
+    }
+    .info {
+      text-align: center;
+      margin-top: 15px;
+    }
+    h2 {
+      font-family: $font1;
+      color: $color2;
+      margin: 15px;
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .food-desc {
+      color: $color3;
+      font-family: $font2;
+      font-size: 15px;
+    }
+    .offers {
+      background-color: $color1;
+      margin-top: 225px;
+      height: 300px;
+    }
+    .text__container2 {
+      // background-color: black;
+      // width: 50%;
+      // height: 50%;
+      font-family: $font1;
+      color: #fff;
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      position: relative;
+      top: 100px;
+    }
+    .meals {
+      font-size: 2rem;
+      padding-bottom: 25px;
+    }
+    .dine {
+      font-size: 1.1rem;
+      padding-bottom: 25px;
+    }
+    .reserve-btn2 {
+      background: $color2;
+      padding: 15px 25px;
+      border-radius: 15px;
+      text-transform: uppercase;
+      position: relative;
+    }
+    a {
+      text-decoration: none;
+      font-family: $font2;
+      font-size: 1rem;
+      font-weight: 500;
+      color: $color7;
+      transition: all .4s ease-in-out;
+    }
+    a:hover {
+      color: #fff;
+    }
+    .italian-wine {
+      display: flex;
+      flex-direction: row;
+      align-items: center; 
+    }
+    .img-contain {
+      margin-left: 80px;
+      height: 200px;
+    }
+    .wine-info {
+      margin-left: 250px;
+      text-align: center;
+    }
+    .importwine {
+      border-radius: 0;
+      height: 200px;
+    }
+    .italia {
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: $font1;
+      color: $color3;
+    }
+    .wine {
+      font-size: 1.1rem;
+      font-weight: 400;
+      font-family: $font2;
+    }
+}
+
+.testimonials {
+  background-color: $color5;
+  height: 250px;
+
+}
+.customer {
+  margin-top: 30px;
+  margin-left: 115px;
+  border: 5px solid $color6;
+}
+q {
+  font-size: 1rem;
+  font-family: $font1;
+  font-weight: 600;
+  color: #fff;
+}
+.satisfaction {
+  margin-top: -100px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+footer {
+  color: #000;
+  margin-top: 10px;
+  margin-left: 400px;
+  text-align: center;
+
+  .copyright-info {
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: $font1;
+  }
+  .phone2 {
+    margin-left: 150px;
+  }
+  .number {
+    color: $color3;
+  }
+}
