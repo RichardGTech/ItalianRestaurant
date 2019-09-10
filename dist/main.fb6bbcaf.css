@@ -1,0 +1,700 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.home .address-phone-info {
+  font-family: "Playfair Display", serif;
+  padding: 15px;
+  text-align: center;
+  background-color: #450D0C;
+  width: 100%;
+}
+.home p {
+  color: #fff;
+  display: inline-block;
+  margin: 0 120px;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.home .title {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-family: "Playfair Display", serif;
+}
+.home .line {
+  display: inline-block;
+  margin-right: 350px;
+}
+.home .text1 {
+  color: #FC563D;
+}
+.home .text2 {
+  color: #4C0D0E;
+}
+.home .text3 {
+  color: #4C0D0E;
+}
+.home .text1, .home .text2, .home .text3 {
+  font-weight: 400;
+}
+.home .header {
+  background-image: url("https://i.ibb.co/H4Srw0z/finestitalia.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.home .text__container {
+  font-family: "Playfair Display", serif;
+  color: #FC563D;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  top: 70px;
+  margin-left: 385px;
+}
+.home .welcome {
+  color: #B43C18;
+  font-size: 5em;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  margin-left: -22px;
+}
+.home .mario {
+  color: #F3F2EE;
+  line-height: 0.5;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+.home .comfy {
+  color: #F3F2EE;
+  line-height: 0.5;
+  font-size: 2em;
+  margin-left: -10px;
+}
+.home .welcome, .home .mario, .home .comfy {
+  font-weight: 600;
+}
+.home .reservation-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -186px;
+  margin-left: 65%;
+  background-color: #4C0D0E;
+  width: 250px;
+  height: 399px;
+}
+.home .text-container2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Noto Serif KR", serif;
+}
+.home h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+.home h4 {
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.home form {
+  text-align: center;
+}
+.home input {
+  border-radius: 4px;
+  margin: 15px;
+  padding: 9px;
+}
+.home .reserve-btn {
+  background: #B43C18;
+  padding: 15px 25px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  position: relative;
+  top: 20px;
+}
+.home .reserve-btn a {
+  text-decoration: none;
+  font-family: "Noto Serif KR", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4C0D0E;
+  transition: all 0.4s ease-in-out;
+}
+.home .reserve-btn a:hover {
+  color: #fff;
+}
+.home .food-selections {
+  margin: 40px;
+}
+.home .flex-container {
+  display: flex;
+  flex-flow: flex-wrap;
+  justify-content: space-evenly;
+}
+.home .flex-item {
+  border: 5px solid #4C0D0E;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.home img {
+  width: 191px;
+  height: 191px;
+  border-radius: 50%;
+}
+.home .info {
+  text-align: center;
+  margin-top: 15px;
+}
+.home h2 {
+  font-family: "Playfair Display", serif;
+  color: #B43C18;
+  margin: 15px;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.home .food-desc {
+  color: #FC563D;
+  font-family: "Noto Serif KR", serif;
+  font-size: 15px;
+}
+.home .offers {
+  background-color: #450D0C;
+  margin-top: 225px;
+  height: 300px;
+}
+.home .text__container2 {
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+.home .meals {
+  font-size: 2rem;
+  padding-bottom: 25px;
+}
+.home .dine {
+  font-size: 1.1rem;
+  padding-bottom: 25px;
+}
+.home .reserve-btn2 {
+  background: #B43C18;
+  padding: 15px 25px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  position: relative;
+}
+.home a {
+  text-decoration: none;
+  font-family: "Noto Serif KR", serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #4C0D0E;
+  transition: all 0.4s ease-in-out;
+}
+.home a:hover {
+  color: #fff;
+}
+.home .italian-wine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home .img-contain {
+  margin-left: 80px;
+  height: 200px;
+}
+.home .wine-info {
+  margin-left: 250px;
+  text-align: center;
+}
+.home .importwine {
+  border-radius: 0;
+  height: 200px;
+}
+.home .italia {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  color: #FC563D;
+}
+.home .wine {
+  font-size: 1.1rem;
+  font-weight: 400;
+  font-family: "Noto Serif KR", serif;
+}
+
+.testimonials {
+  background-color: #FD4F2D;
+  height: 250px;
+}
+
+.customer {
+  margin-top: 30px;
+  margin-left: 115px;
+  border: 5px solid #F3F2EE;
+}
+
+q {
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.satisfaction {
+  margin-top: -100px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+footer {
+  color: #000;
+  margin-top: 10px;
+  margin-left: 400px;
+  text-align: center;
+}
+footer .copyright-info {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+footer .phone2 {
+  margin-left: 150px;
+}
+footer .number {
+  color: #FC563D;
+}
+
+@media (max-width: 767px) {
+  .home .address-phone-info {
+    padding: 10px;
+    width: 100%;
+  }
+  .home p {
+    font-size: 0.65rem;
+    margin: 0 15px;
+  }
+  .home .title {
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-left: -10px;
+  }
+  .home .line {
+    margin-left: 0px;
+  }
+  .home .text3 {
+    margin-left: -330px;
+  }
+  .home .text__container {
+    font-family: "Playfair Display", serif;
+    color: #FC563D;
+    display: none;
+  }
+  .home .reservation-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    margin-left: 25%;
+    background-color: #4C0D0E;
+    width: 250px;
+    height: 399px;
+  }
+  .home .text-container2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Noto Serif KR", serif;
+  }
+  .home h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-left: 5px;
+  }
+  .home h4 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .home form {
+    text-align: center;
+  }
+  .home input {
+    border-radius: 4px;
+    margin: 15px;
+    padding: 9px;
+  }
+  .home .reserve-btn {
+    background: #B43C18;
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+  }
+  .home .reserve-btn a {
+    text-decoration: none;
+    font-family: "Noto Serif KR", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4C0D0E;
+    transition: all 0.4s ease-in-out;
+  }
+  .home .reserve-btn a:hover {
+    color: #fff;
+  }
+  .home .food-selections {
+    margin: 40px;
+  }
+  .home .flex-container {
+    display: flex;
+    flex-flow: flex-wrap;
+    justify-content: space-evenly;
+  }
+  .home .flex-item {
+    height: 110px;
+    width: 110px;
+    border: 5px solid #4C0D0E;
+  }
+  .home .food {
+    width: 100px;
+    height: 100px;
+  }
+  .home .info {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .home h2 {
+    font-family: "Playfair Display", serif;
+    color: #B43C18;
+    margin: 15px;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .home .food-desc {
+    color: #FC563D;
+    font-family: "Noto Serif KR", serif;
+    font-size: 10px;
+  }
+  .home .offers {
+    background-color: #450D0C;
+  }
+  .home .text__container2 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    text-align: center;
+    top: 70px;
+  }
+  .home .meals {
+    font-size: 1.2rem;
+  }
+  .home .dine {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .home .italian-wine {
+    margin-left: -100px;
+  }
+  .home .wine-info {
+    margin-left: 0px;
+  }
+  .home .importwine {
+    border-radius: 0;
+  }
+  .home .italia {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #FC563D;
+  }
+  .home .wine {
+    font-size: 0.7rem;
+  }
+}
+.home .customer {
+  margin-top: 30px;
+  margin-left: 40px;
+  border: 5px solid #F3F2EE;
+}
+.home q {
+  font-size: 0.8rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #fff;
+}
+.home .satisfaction {
+  margin-top: -150px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+footer {
+  padding: 15px;
+  color: #000;
+  margin-left: -50px;
+}
+footer .copyright-info {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+footer .copy {
+  margin-left: 35px;
+}
+footer .phone2 {
+  margin-left: 80px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home .address-phone-info {
+    padding: 10px;
+    width: 100%;
+  }
+  .home p {
+    font-size: 0.65rem;
+    margin: 0 80px;
+  }
+  .home .title {
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-left: -10px;
+  }
+  .home .line {
+    margin-left: -80px;
+  }
+  .home .text3 {
+    margin-left: -330px;
+  }
+  .home .text__container {
+    display: none;
+  }
+  .home .reservation-container {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 0;
+    margin-left: 35%;
+    background-color: #4C0D0E;
+    width: 250px;
+    height: 399px;
+  }
+  .home .text-container2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Noto Serif KR", serif;
+  }
+  .home h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-left: 5px;
+  }
+  .home h4 {
+    font-size: 0.85rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  .home form {
+    text-align: center;
+  }
+  .home input {
+    border-radius: 4px;
+    margin: 15px;
+    padding: 9px;
+  }
+  .home .reserve-btn {
+    background: #B43C18;
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+  }
+  .home .reserve-btn a {
+    text-decoration: none;
+    font-family: "Noto Serif KR", serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #4C0D0E;
+    transition: all 0.4s ease-in-out;
+  }
+  .home .reserve-btn a:hover {
+    color: #fff;
+  }
+  .home .food-selections {
+    margin: 40px;
+  }
+  .home .flex-container {
+    display: flex;
+    flex-flow: flex-wrap;
+    justify-content: space-evenly;
+  }
+  .home .flex-item {
+    height: 110px;
+    width: 110px;
+    border: 5px solid #4C0D0E;
+  }
+  .home .food {
+    width: 100px;
+    height: 100px;
+  }
+  .home .info {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .home h2 {
+    font-family: "Playfair Display", serif;
+    color: #B43C18;
+    margin-top: 15px;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .home .food-desc {
+    color: #FC563D;
+    font-family: "Noto Serif KR", serif;
+    font-size: 10px;
+  }
+  .home .offers {
+    background-color: #450D0C;
+  }
+  .home .text__container2 {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    text-align: center;
+    top: 80px;
+  }
+  .home .meals {
+    font-size: 1.2rem;
+  }
+  .home .dine {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .home .italian-wine {
+    margin-left: -100px;
+  }
+  .home .wine-info {
+    margin-left: 150px;
+  }
+  .home .importwine {
+    border-radius: 0;
+  }
+  .home .italia {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    color: #FC563D;
+  }
+  .home .wine {
+    font-size: 0.7rem;
+  }
+}
+.home .customer {
+  margin-top: 30px;
+  margin-left: 40px;
+  border: 5px solid #F3F2EE;
+}
+.home q {
+  font-size: 0.8rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  color: #fff;
+}
+.home .satisfaction {
+  margin-top: -150px;
+  margin-left: 250px;
+  text-align: center;
+}
+
+footer {
+  padding: 15px;
+  color: #000;
+  margin-left: -50px;
+}
+footer .copyright-info {
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+footer .copy {
+  margin-left: 35px;
+}
+footer .phone2 {
+  margin-left: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=/main.fb6bbcaf.css.map */
